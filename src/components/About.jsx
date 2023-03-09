@@ -47,11 +47,11 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        {/* mounts club */}
+
+        <span className='font-bold'>Mounts Cult</span> is the best Cult
+        in Kai. We love mounts. We have supressed the Spirew and river
+        cults. We are the best and We are the best and We are the best.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
