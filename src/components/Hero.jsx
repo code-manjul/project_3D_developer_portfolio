@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 const Hero = () => {
   // example api response {count: 18}
-  const [counter, setCounter] = useState(0);
+  const [counter, setCounter] = useState(28);
 
   useEffect(() => {
     fetch("http://154.26.128.6:8443/api")
